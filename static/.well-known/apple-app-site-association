@@ -2,7 +2,8 @@
   "applinks": {
       "details": [
            {
-             "appIDs": [ "UW7JAY4CE8.me.wideboard.Wideboard" ],
+             "appIDs": [ "UW7JAY4CE8.me.wideboard.Wideboard", "UW7JAY4CE8.me.wideboard.staging" ],
+             "paths" : [ "/*" ],
              "components": [
                {
                   "/": "/*",
@@ -13,6 +14,6 @@
        ]
    },
    "webcredentials": {
-      "apps": [ "W7JAY4CE8.me.wideboard.Wideboard" ]
+      "apps": [ "W7JAY4CE8.me.wideboard.Wideboard", "UW7JAY4CE8.me.wideboard.staging" ]
    }
 }
