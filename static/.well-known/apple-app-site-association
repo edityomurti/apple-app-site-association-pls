@@ -7,7 +7,7 @@
              "components": [
                {
                   "/": "/*",
-                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+                  "comment": "Matches any URL and instructs the system to open it as a universal link"
                }
              ]
            }
