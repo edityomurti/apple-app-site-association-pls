@@ -1,11 +1,12 @@
 {
-    “applinks”: {
-        “apps”: [],
-        “details”: [
-            {
-                “appID”: "UW7JAY4CE8.me.wideboard.Wideboard",
-                “paths”: [“*”],
-            }
-        ]
-    }
+	"applinks": {
+        "apps": [],
+		"details": [{
+			"appIDs": ["UW7JAY4CE8.me.wideboard.Wideboard"],
+            "paths": ["*"]
+		}]
+	},
+	"webcredentials": {
+		"apps": ["UW7JAY4CE8.me.wideboard.Wideboard"]
+	}
 }
