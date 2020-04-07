@@ -1,12 +1,18 @@
 {
-	"applinks": {
-        "apps": [],
-		"details": [{
-			"appIDs": ["UW7JAY4CE8.me.wideboard.Wideboard"],
-            "paths": ["*"]
-		}]
-	},
-	"webcredentials": {
-		"apps": ["UW7JAY4CE8.me.wideboard.Wideboard"]
-	}
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "UW7JAY4CE8.me.wideboard.Wideboard" ],
+             "components": [
+               {
+                  "/": "/*",
+                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "W7JAY4CE8.me.wideboard.Wideboard" ]
+   }
 }
